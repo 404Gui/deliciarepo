@@ -6,50 +6,85 @@ export const Footer = () => {
   return (
     <footer className={styles.footerContainer}>
       <div className={styles.footerContent}>
-        <div className={styles.footerLogo}>
-          <Image
-            src="/logos/delicia-branco-high.png"
-            alt="Lorem ipsum"
-            width={120}
-            height={90}
-          />
-        </div>
+        <div className={styles.columnsWrapper}>
+          <div className={styles.footerColumn}>
+            <p className={styles.footerTitle}>Institucional</p>
+            <ul className={styles.footerList}>
+              <li>
+                <a href="https://www.seara.com.br/outras-marcas/">
+                  Outras Marcas
+                </a>
+              </li>
+              <li>
+                <a href="https://www.seara.com.br/imprensa/" target="_blank">
+                  Imprensa
+                </a>
+              </li>
+              <li>
+                <a href="https://www.seara.com.br/instituto-jf/">
+                  Instituto J&amp;F
+                </a>
+              </li>
+              <li>
+                <a href="https://www.seara.com.br/sobre-nos/">Sobre nós</a>
+              </li>
+              <li>
+                <a href="https://www.clientedireto.com.br/spa/login/cartaoseara/">
+                  Cartão Seara
+                </a>
+              </li>
+              <li>
+                <a href="https://www.seara.com.br/livros-receitas/">Ebooks</a>
+              </li>
+              <li>
+                <a href="https://www.seara.com.br/sustentabilidade/">
+                  Sustentabilidade
+                </a>
+              </li>
+              <li>
+                <a href="https://www.seara.com.br/politica-de-privacidade/">
+                  Política de privacidade
+                </a>
+              </li>
+              <li>
+                <a href="https://www.seara.com.br/cookies/">
+                  Política de cookies
+                </a>
+              </li>
+            </ul>
+          </div>
 
-        <nav className={styles.footerMenu}>
-          <Link href="/">Home</Link>
-          <Link href="/produtos">Produtos</Link>
-          <Link href="/filiais">Receitas</Link>
-          <Link href="/sobre">Nossa História</Link>
-          <Link href="/trabalhe-conosco">Fale Conosco</Link>
-        </nav>
+          <div className={styles.footerColumn}>
+            <p className={styles.footerTitle}>Menu</p>
+            <nav className={styles.footerList}>
+              <Link href="/">Home</Link>
+              <Link href="/produtos">Produtos</Link>
+              <Link href="/filiais">Receitas</Link>
+              <Link href="/sobre">Nossa História</Link>
+              <Link href="/trabalhe-conosco">Fale Conosco</Link>
+            </nav>
+          </div>
 
-        <div className={styles.footerSocial}>
-          <Link href="#">
+          <div className={styles.footerBrand}>
             <Image
-              src="/icones/iLinkedin.png"
-              alt="LinkedIn"
-              width={45}
-              height={45}
+              src="/logos/delicia-branco-high.png"
+              alt="Delícia"
+              width={120}
+              height={90}
             />
-          </Link>
 
-          <Link href="#">
-            <Image
-              src="/icones/iInstagramm.png"
-              alt="Instagram"
-              width={38}
-              height={38}
-            />
-          </Link>
-
-          <Link href="#">
-            <Image
-              src="/icones/iWhats.png"
-              alt="WhatsApp"
-              width={29}
-              height={29}
-            />
-          </Link>
+            {/* <div className={styles.footerSocial}>
+            <Link href="#">
+              <Image src="/icones/iLinkedin.png" alt="LinkedIn" width={45} height={45} />
+            </Link>
+            <Link href="#">
+              <Image src="/icones/iInstagramm.png" alt="Instagram" width={38} height={38} />
+            </Link>
+            <Link href="#">
+              <Image src="/icones/iWhats.png" alt="WhatsApp" width={29} height={29} />
+            </Link>
+          </div> */}
+          </div>
         </div>
       </div>
 
