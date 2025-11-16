@@ -37,7 +37,7 @@ export const MissionVisionValues = () => {
 
   return (
     <section className={styles.section}>
-      <h2 className={styles.title}>LOREM IPSUM DOLOR SIT AMET</h2>
+      <h2 className={styles.title}>GENERIC INDENTIFIER</h2>
 
       <CustomSwiper
         slides={cards}

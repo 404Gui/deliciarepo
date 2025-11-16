@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 export const AboutContent = () => {
   return (
     <section className={styles.aboutSection}>
-      <h1 className={styles.title}>Lorem ipsum</h1>
+      <h1 className={styles.title}>generic page 2</h1>
 
       <p className={styles.subtitle}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut

@@ -1,5 +1,5 @@
 export async function getVagas() {
-  await new Promise((r) => setTimeout(r, 200)); 
+  await new Promise((r) => setTimeout(r, 200));
 
   return [
     {

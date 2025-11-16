@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 export const TeamContent = async ({ profissionais }) => {
   return (
     <section className={styles.teamSection}>
-      <h1 className={styles.title}>LOREM IPSUM</h1>
+      <h1 className={styles.title}>GENERIC PAGE</h1>
 
       <p className={styles.subtitle}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel

@@ -4,7 +4,7 @@ import styles from "./styles.module.css"
 export const AreasContent = () => {
   return (
     <section className={styles.areasSection}>
-      <h1 className={styles.title}>Lorem ipsum dolor sit amet</h1>
+      <h1 className={styles.title}>Generic Page 3</h1>
       <p className={styles.subtitle}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel
         commodo lorem. Cras tempor, velit et dictum hendrerit, nisi urna

@@ -4,7 +4,7 @@ import { FilialCard } from "../filiais-card";
 export const FiliaisContent = async ({ filiais }) => {
   return (
     <section className={styles.filiaisSection}>
-      <h1 className={styles.title}>LOREM IPSUM</h1>
+      <h1 className={styles.title}>RECEITAS PAGE</h1>
 
       <p className={styles.description}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />

@@ -33,6 +33,7 @@ export const SectionNews = async ({ novidades }) => {
           <h2 className={styles.title}>LOREM IPSUM DOLOR SIT AMET.</h2>
 
           <p className={styles.description}>
+            NEWS SWIPER
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
             dignissim lacus vitae mi dictum, quis consequat metus lacinia.
             Integer id orci vehicula, blandit justo vitae, commodo risus.

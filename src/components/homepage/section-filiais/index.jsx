@@ -8,14 +8,13 @@ export const SectionFiliais = async ({ filiais }) => {
 
   const subtitleContent = hasFiliais ? (
     <>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-      Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      receitas <br />
+      receitas
       <br />
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-      aliquip ex ea commodo consequat.
+      
     </>
   ) : (
-    <>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</>
+    <>No momento não temos filiais cadastradas.</>
   );
 
   const slides = hasFiliais
@@ -32,8 +31,8 @@ export const SectionFiliais = async ({ filiais }) => {
   return (
     <section className={styles.filiaisSection}>
       <Image
-        src="/home_filiais_background.png"
-        alt="Lorem ipsum dolor sit amet"
+        src="/banners/receitas.png"
+        alt="Fundo receitas"
         fill
         className={styles.backgroundImage}
         quality={100}
@@ -44,11 +43,11 @@ export const SectionFiliais = async ({ filiais }) => {
         <div className={styles.content}>
           {/* HEADER */}
           <span className={styles.tag}>
-            LOREM IPSUM
+            receitas
             <div className={styles.divider}></div>
           </span>
 
-          <h2 className={styles.title}>LOREM IPSUM DOLOR SIT AMET</h2>
+          <h2 className={styles.title}>receitas section</h2>
 
           <p className={styles.subtitle}>{subtitleContent}</p>
 

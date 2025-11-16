@@ -50,7 +50,7 @@ export const OpenMenu = () => {
         <ul className={styles.navList}>
           <li>
             <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
-              LOREM IPSUM
+              MENU ABERTO ID
             </Link>
           </li>
           <li>

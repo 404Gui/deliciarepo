@@ -13,7 +13,7 @@ export const CareersContent = ({ vagas }) => {
 
   return (
     <section className={styles.careersSection}>
-      <h1 className={styles.title}>LOREM IPSUM</h1>
+      <h1 className={styles.title}>products info section</h1>
 
       <p className={styles.subtitle}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut nisl ac

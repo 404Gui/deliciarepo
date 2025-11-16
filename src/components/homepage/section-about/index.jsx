@@ -8,7 +8,7 @@ export const SectionAbout = () => {
       <div className={styles.contentWrapper}>
         <div className={styles.imageWrapper}>
           <Image
-            src="/colegas_analisando_grafico.jpgg"
+            src="/genericas/Chamadas.png"
             alt="imagem reservada"
             width={600}
             height={400}

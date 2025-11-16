@@ -7,7 +7,7 @@ export const SectionEquipe = () => {
     <section className={styles.equipeSection}>
       <div className={styles.quemFaz}>
         <span className={styles.tag}>
-          LOREM IPSUM
+          CHAMADAS
           <div className={styles.divider}></div>
         </span>
 
@@ -29,7 +29,7 @@ export const SectionEquipe = () => {
       <div className={styles.trabalheConosco}>
         <div className={styles.text}>
           <span className={styles.tag}>
-            LOREM IPSUM
+            CHAMADAS 
             <div className={styles.divider}></div>
           </span>
 
@@ -48,7 +48,7 @@ export const SectionEquipe = () => {
 
         <div className={styles.imageWrapper}>
           <Image
-            src="null undefined NaN"
+            src="/genericas/Chamadas_2.png"
             alt="Lorem ipsum dolor sit amet"
             width={600}
             height={400}

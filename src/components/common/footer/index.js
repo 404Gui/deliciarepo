@@ -16,11 +16,11 @@ export const Footer = () => {
         </div>
 
         <nav className={styles.footerMenu}>
-          <Link href="/lorem-ipsum">LOREM IPSUM</Link>
-          <Link href="/lorem-ipsum">LOREM IPSUM</Link>
-          <Link href="/lorem-ipsum">LOREM IPSUM</Link>
-          <Link href="/lorem-ipsum">LOREM IPSUM</Link>
-          <Link href="/lorem-ipsum">LOREM IPSUM</Link>
+          <Link href="/sobre">LOREM IPSUM</Link>
+          <Link href="/areas-de-atuacao">LOREM IPSUM</Link>
+          <Link href="/filiais">LOREM IPSUM</Link>
+          <Link href="/profissionais">LOREM IPSUM</Link>
+          <Link href="/trabalhe-conosco">LOREM IPSUM</Link>
         </nav>
 
         <div className={styles.footerSocial}>

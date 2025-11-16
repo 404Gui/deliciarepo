@@ -33,7 +33,7 @@ export const PraticeAreasCard = () => {
   return (
     <section className={styles.section}>
       <h2 className={styles.title}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit:
+        Generic 3 ID
       </h2>
 
       <div className={styles.grid}>

@@ -10,7 +10,7 @@ const branches = [
     location: "",
   },
   {
-    image: "/banners/banner_principal.png",
+    image: "/banners/Banner_Cozinhando.png",
     title: "",
     location: "",
   },
@@ -20,7 +20,7 @@ const branches = [
     location: "",
   },
   {
-    image: "/banners/banner_principal.png",
+    image: "/banners/Banner_Cozinhando.png",
     title: "",
     location: "",
   },
