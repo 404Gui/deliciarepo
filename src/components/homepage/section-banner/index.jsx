@@ -5,7 +5,7 @@ import { Header } from "@/components/common/header";
 
 const branches = [
   {
-    image: "/banners/banner_principal.png",
+    image: "/banners/banner_principal.jpg",
     title: "A cremosa que vira o jogo",
     text: "Delícia com creme de leite.",
     textTwo: "Pra deixar qualquer momento ainda mais gostoso.",
@@ -17,7 +17,7 @@ const branches = [
     textTwo: "Do fogão ao prato, tudo vira UOU!",
   },
   {
-    image: "/banners/banner_principal.png",
+    image: "/banners/banner_principal.jpg",
     title: "Vira sabor, vira Delícia",
     text: "Cremosidade que faz a diferença.",
     textTwo: "Porque nada tá tão bom que não possa ficar ainda melhor.",
@@ -40,6 +40,7 @@ export const SectionBanner = () => {
         backgroundImage: `url(${branch.image})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
+        backgroundRender: "-webkit-optimize-contrast",
       }}
     >
       <div className={styles.content}>
