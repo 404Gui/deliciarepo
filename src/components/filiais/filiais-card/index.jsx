@@ -6,13 +6,10 @@ export const FilialCard = ({ nome, endereco, imagem }) => {
 
   return (
     <div className={styles.card}>
-      <Image
-        src={imageUrl}
-        alt={nome}
-        width={420}
-        height={243}
-        className={styles.image}
-      />
+      <div className={styles.imageWrapper}>
+        <Image src={imageUrl} alt={nome} fill className={styles.image} />
+      </div>
+
       <div className={styles.content}>
         <h3 className={styles.nome}>{nome}</h3>
 

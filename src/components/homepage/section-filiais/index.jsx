@@ -57,6 +57,7 @@ export const SectionFiliais = async ({ filiais }) => {
             <div className={styles.carouselWrapper}>
               <CustomSwiper
                 slides={slides}
+                loop
                 pagination
                 autoplay={true}
                 autoplayDelay={3500}
