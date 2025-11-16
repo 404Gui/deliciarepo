@@ -86,7 +86,7 @@
 @media (max-width: 1024px) {
   .sectionAbout {
     margin-top: 30px;
-    padding-bottom: 0px;
+    padding-bottom: 53px;
   }
   .contentWrapper {
     flex-wrap: wrap;
