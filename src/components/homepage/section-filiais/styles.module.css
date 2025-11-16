@@ -36,7 +36,7 @@
   position: relative;
   z-index: 1;
   padding: 4rem 2rem;
-  background: rgba(15, 20, 37, 0.85); 
+  background: rgb(250 235 200 / 65%);
 }
 
 .content {
@@ -48,7 +48,7 @@
 
 .tag {
   display: inline-block;
-  color: #bc9c6b;
+  color: #053282;
   font-family: "FinalSix";
   font-size: .85rem;
   position: relative;
@@ -57,15 +57,18 @@
 .divider {
   width: 70px;
   height: 2px;
-  background-color: #bc9c6b;
+  background-color: #053282;
   margin: 4px auto 0;
 }
+
+/* #006efa */
 
 .title {
   font-family: "FinalSix";
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 1.5rem;
+  color: #0f4196;
 }
 
 .subtitle {
@@ -73,7 +76,7 @@
   max-width: 800px;
   margin: 0 auto 3rem;
   line-height: 1.6;
-  color: #e2e2e2;
+  color: #0f4196;
 }
 
 .cardsGrid {

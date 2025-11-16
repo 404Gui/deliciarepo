@@ -11,7 +11,7 @@
 
 .tag {
   font-size: 0.85rem;
-  color: #bc9c6b;
+  color: #053282;
   letter-spacing: 1px;
   font-weight: 700;
   text-transform: uppercase;
@@ -21,7 +21,7 @@
 
 .divider {
   height: 2px;
-  background-color: #bc9c6b;
+  background-color: #053282;
   margin-top: 4px;
 }
 
@@ -30,6 +30,7 @@
   margin-top: 1rem;
   font-weight: 700;
   font-family: "FinalSix";
+  color: #0f4196;
 }
 
 .subtitle {
@@ -37,7 +38,7 @@
   max-width: 700px;
   font-size: 1rem;
   line-height: 1.6;
-  color: #e2e2e2;
+  color: #0f4196
 }
 
 .grid {
@@ -49,7 +50,7 @@
 }
 
 .card {
-  background-color: #212739;
+  background-color: #006efa;
   padding: 1.5rem;
   border-radius: 10px;
   display: flex;
@@ -67,7 +68,7 @@
 }
 
 .cardTitle {
-  color: #bc9c6b;
+  color: #faebc8;
   font-size: 14px;
   font-weight: 700;
   font-family: "FinalSix";
@@ -77,7 +78,7 @@
 .cardText {
   font-size: 14px;
   line-height: 1.5;
-  color: #e2e2e2;
+  color: #f5f082;
   font-family: "FinalSix";
   font-weight: 500;
 
@@ -86,7 +87,7 @@
 .button {
   margin: 3rem auto 0;
   padding: 0.8rem 1.5rem;
-  background-color: #bc9c6b;
+  background-color: #facd0a;
   color: #0f1425;
   border: none;
   border-radius: 4px;
@@ -97,7 +98,7 @@
 }
 
 .button:hover {
-  background-color: #a68358;
+  background-color:  #fae128;
 }
 
 .practiceSwiper {

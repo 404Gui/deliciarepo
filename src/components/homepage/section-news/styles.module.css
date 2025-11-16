@@ -1,5 +1,5 @@
 .section_two {
-    background-color: #1C2338CC;
+    background-color: #faebc8;
     padding: 1rem 2rem;
     color: white;
     margin-left: 4rem;
@@ -19,22 +19,22 @@
 
 .tag {
     font-size: 14px;
-    color: #BC9C6B;
+    color: #0f4196;
     letter-spacing: 1px;
     font-weight: 600;
 }
 
 .divider {
-    width: 80px;
+    width: 108px;
     height: 2px;
-    background-color: #BC9C6B;
-    margin-top: 4px;
+    background-color: #0f4196;
 }
 
 .title {
     font-size: 24px;
     font-weight: bold;
     margin: 0.5rem 0;
+    color: #0f4196;
 }
 
 .tag,
@@ -46,7 +46,7 @@
 
 .description {
     font-size: 14px;
-    color: #cfcfcf;
+    color: #0f4196;
     line-height: 1.5;
 }
 

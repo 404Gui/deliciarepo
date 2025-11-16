@@ -5,16 +5,17 @@
 
 .tag {
   display: inline-block;
-  color: #bc9c6b;
+  color: #053282;
   font-family: "FinalSix";
   font-size: 14px;
   position: relative;
   margin-bottom: 14px;
 }
+  /* color: #053282; */
 
 .divider {
   height: 2px;
-  background-color: #bc9c6b;
+  background-color: #053282;
   margin-top: 4px;
 }
 
@@ -29,12 +30,13 @@
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: #0f4196;
 }
 
 .description {
   font-size: 1rem;
   line-height: 1.6;
-  color: #e2e2e2;
+  color: #0f4196;
   margin-bottom: 2rem;
 }
 
@@ -74,12 +76,13 @@
   font-size: 24px;
   font-weight: 700;
   margin: 1rem 0;
+  color: #0f4196;
 }
 
 .textDescription {
   font-size: 1rem;
   line-height: 1.6;
-  color: #e2e2e2;
+  color: #0f4196;
   margin-bottom: 1.5rem;
 }
 

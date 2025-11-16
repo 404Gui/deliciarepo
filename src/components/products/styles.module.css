@@ -1,5 +1,5 @@
 .careersSection {
-  background-color: #151b2e;
+  /* background-color: #151b2e; */
   padding: 4rem 3rem;
   color: #fff;
 }
@@ -9,12 +9,12 @@
   font-family: "FinalSix";
   font-size: 34px;
   font-weight: 400;
-  color: #bc9c6b;
+  color: #0f4196;
   margin-bottom: 1rem;
 }
 
 .subtitle {
-  color: #fff;
+  color: #0f4196;
   max-width: 1200px;
   margin-bottom: 91px;
   margin-left: auto;
@@ -35,14 +35,19 @@
 .imageWrapper {
   flex: 1 1 400px;
   position: relative;
-  min-height: 500px;
+  min-height: 520px;
+  max-height: 620px;
+  width: 100%;
+  display: flex;
 }
 
 .image {
-  object-fit: cover;
+  object-fit: contain;
+  padding: 20px;
   border-top-right-radius: 55px;
   border-bottom-right-radius: 15px;
 }
+
 
 .textBlock {
   flex: 1 1 500px;
@@ -57,6 +62,7 @@
   font-size: 26px;
   line-height: 32px;
   margin-bottom: 15px;
+  color: #0f4196;
 }
 
 
@@ -68,9 +74,9 @@
 
 .vagaHeader {
   width: 100%;
-  background-color: #2b304a;
+  background-color: #006efa;
   border: none;
-  color: #fff;
+  color: #faebc8;
   font-weight: bold;
   font-size: 14px;
   padding: 1rem;
@@ -89,7 +95,7 @@
 }
 
 .vagaContent {
-  background-color: transparent;
+  background-color: #006efa;
   padding: 1rem 1.5rem;
   display: flex;
   flex-direction: column;
@@ -118,7 +124,8 @@
 
 .noVagas {
   margin-top: 1rem;
-  margin-bottom: 1rem;;
+  margin-bottom: 1rem;
+  ;
   font-style: italic;
   color: #e0e0e0;
 }
@@ -157,16 +164,83 @@
     margin-bottom: 58px;
   }
 
-  .vagasTitle, .noVagas {
+  .vagasTitle,
+  .noVagas {
     font-size: 18px;
     text-align: center;
   }
 
-    .vagaSection h3,
-    .vagaSection p,
-    .vagaSection li,
-    .vagaHeader {
-      font-size: 12px;
-  
-    }
-    }
+  .vagaSection h3,
+  .vagaSection p,
+  .vagaSection li,
+  .vagaHeader {
+    font-size: 12px;
+
+  }
+
+  .imageWrapper {
+    min-height: 380px;
+    max-height: 420px;
+  }
+
+  .image {
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .preBlock {
+    white-space: pre-wrap;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+
+
+.preBlock {
+  white-space: pre-wrap;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #e0e0e0;
+}
+
+.nutriContent {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid #2e344d;
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+}
+
+.nutriTable {
+  white-space: pre-wrap;
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #faebc8;
+  font-weight: 400;
+}
+
+.nutriTable b {
+  color: #bc9c6b;
+}
+
+.nutriTable em {
+  color: #bc9c6b;
+  font-style: normal;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .nutriContent {
+    padding: 0.8rem 1rem;
+  }
+
+  .nutriTable {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+}

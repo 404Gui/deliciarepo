@@ -1,5 +1,5 @@
-import { CareersContent } from "@/components/careers";
-import { getVagas } from "@/lib/vagas";
+import { ProductsContent } from "@/components/products";
+import { getProdutos } from "@/lib/vagas";
 
 
 
@@ -14,16 +14,16 @@ export const metadata = {
 ;
 
 
-  const CareersPage = async () => {
-  const vagas = (await getVagas()) || [];
+  const ProductsPage = async () => {
+  const vagas = (await getProdutos()) || [];
   
     return (
       <section className="all-content">
         <main className="content-page">
-          <CareersContent vagas={vagas} />
+          <ProductsContent vagas={vagas} />
         </main>
       </section>
     );
   }
   
-  export default CareersPage;
+  export default ProductsPage;

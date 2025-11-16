@@ -8,21 +8,20 @@ export const Footer = () => {
       <div className={styles.footerContent}>
         <div className={styles.footerLogo}>
           <Image
-            src="/lorem-logo.png"
+            src="/logos/delicia-branco-high.png"
             alt="Lorem ipsum"
             width={120}
-            height={60}
+            height={90}
           />
         </div>
 
         <nav className={styles.footerMenu}>
-          <Link href="/home">Home</Link>
+          <Link href="/">Home</Link>
           <Link href="/produtos">Produtos</Link>
           <Link href="/filiais">Receitas</Link>
           <Link href="/sobre">Nossa História</Link>
           <Link href="/trabalhe-conosco">Fale Conosco</Link>
         </nav>
-        
 
         <div className={styles.footerSocial}>
           <Link href="#">
@@ -57,7 +56,7 @@ export const Footer = () => {
       <hr className={styles.footerDivider} />
 
       <div className={styles.footerCopy}>
-        © Lorem ipsum dolor sit amet — Lorem ipsum dolor — 2023
+        Copyright R Seara 2025. Todos Os Direitos Reservados
       </div>
     </footer>
   );

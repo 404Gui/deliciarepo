@@ -35,7 +35,7 @@ export const SectionAbout = () => {
           </p>
 
           <Link href="/sobre">
-            <button className={styles.button}>CONHEÇA NOSSA ESSÊNCIA</button>
+            <button className={styles.button}>CONHEÇA NOSSA HISTÓRIA</button>
           </Link>
         </div>
 

@@ -15,7 +15,7 @@ const AboutPage = () => {
     <section className="all-content">
       <main className="content-page">
         <AboutContent />
-        <MissionVisionValues />
+        {/* <MissionVisionValues /> */}
       </main>
     </section>
   );
