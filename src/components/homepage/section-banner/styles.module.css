@@ -20,15 +20,6 @@
   color: white;
 }
 
-.overlay {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.679);
-  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50.01%, #151B2E 100%); */
-  z-index: 1;
-}
-
 .content {
   position: relative;
   z-index: 2;

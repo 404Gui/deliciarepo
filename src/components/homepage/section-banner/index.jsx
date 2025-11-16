@@ -37,7 +37,6 @@ export const SectionBanner = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className={styles.overlay}></div>
       <div className={styles.content}>
         <h1 className={styles.title}>
           {branch.title}
