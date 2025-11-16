@@ -16,7 +16,7 @@ export const FilialCard = ({ nome, endereco, imagem }) => {
       <div className={styles.content}>
         <h3 className={styles.nome}>{nome}</h3>
 
-        <p className={styles.endereco}>
+        {/* <p className={styles.endereco}>
           <Image
             src="/icones/iMap.png"
             alt="Ícone de localização"
@@ -24,11 +24,11 @@ export const FilialCard = ({ nome, endereco, imagem }) => {
             height={28}
           />
           {endereco}
-        </p>
+        </p> */}
 
         <hr className={styles.divisor} />
 
-        <div className={styles.contatoWrapper}>
+        {/* <div className={styles.contatoWrapper}>
           <p className={styles.contato}>CONTATO:</p>
           <div className={styles.icons}>
             <Image
@@ -44,7 +44,7 @@ export const FilialCard = ({ nome, endereco, imagem }) => {
               height={25}
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

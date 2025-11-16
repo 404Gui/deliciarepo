@@ -6,6 +6,7 @@ export const SectionAbout = () => {
   return (
     <section className={styles.sectionAbout}>
       <div className={styles.contentWrapper}>
+        
         <div className={styles.imageWrapper}>
           <Image
             src="/genericas/Chamadas.png"
@@ -15,26 +16,29 @@ export const SectionAbout = () => {
             className={styles.image}
           />
         </div>
+
         <div className={styles.textContent}>
           <span className={styles.tag}>
-            LOREM IPSUM
+            A DELÍCIA QUE A VIDA PEDE
             <div className={styles.divider}></div>
           </span>
 
           <h2 className={styles.aboutTitle}>
-            LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING
+            ESTAMOS AQUI PARA QUE A VIDA VIRE UMA DELÍCIA.
           </h2>
 
           <p className={styles.description}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            <strong>Lorem Ipsum Dolor</strong> sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua.
+            Nosso apetite insaciável por uma vida deliciosa transforma cada momento 
+            em algo que vale a pena saborear. Acreditamos que não há nada tão bom 
+            que não possa virar uma Delícia, das receitas às relações, do astral 
+            ao cotidiano.
           </p>
 
           <Link href="/sobre">
-            <button className={styles.button}>LOREM IPSUM</button>
+            <button className={styles.button}>CONHEÇA NOSSA ESSÊNCIA</button>
           </Link>
         </div>
+
       </div>
     </section>
   );

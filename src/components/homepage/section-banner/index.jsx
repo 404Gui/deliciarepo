@@ -6,25 +6,30 @@ import { Header } from "@/components/common/header";
 const branches = [
   {
     image: "/banners/banner_principal.png",
-    title: "",
-    location: "",
+    title: "A cremosa que vira o jogo",
+    text: "Delícia com creme de leite.",
+    textTwo: "Pra deixar qualquer momento ainda mais gostoso.",
   },
   {
     image: "/banners/Banner_Cozinhando.png",
-    title: "",
-    location: "",
+    title: "O sabor que surpreende",
+    text: "A única cremosa de verdade.",
+    textTwo: "Do fogão ao prato, tudo vira UOU!",
   },
   {
     image: "/banners/banner_principal.png",
-    title: "",
-    location: "",
+    title: "Vira sabor, vira Delícia",
+    text: "Cremosidade que faz a diferença.",
+    textTwo: "Porque nada tá tão bom que não possa ficar ainda melhor.",
   },
   {
     image: "/banners/Banner_Cozinhando.png",
-    title: "",
-    location: "",
+    title: "Mais sabor, mais cremosidade",
+    text: "Pra cozinhar, espalhar e surpreender.",
+    textTwo: "Transforme o simples em deliciosamente incrível.",
   },
 ];
+
 
 export const SectionBanner = () => {
   const slides = branches.map((branch, index) => (
@@ -41,9 +46,9 @@ export const SectionBanner = () => {
         <h1 className={styles.title}>
           {branch.title}
           <br />
-          {branch.location}
+          {branch.text}
         </h1>
-        {/* <p className={styles.subtitle}>SOLUÇÕES JURÍDICAS PERSONALIZADAS</p> */}
+        <p className={styles.subtitle}>{branch.textTwo}</p>
         {/* <Link
           href="https://wa.me/554896490073"
           target="_blank"
@@ -64,7 +69,7 @@ export const SectionBanner = () => {
     <>
     <Header variant="absolute" />
     <div className={styles.section_one}>
-      <CustomSwiper slides={slides} loop pagination autoplay={true} />
+      <CustomSwiper slides={slides} loop pagination autoplay={false} />
     </div>
     </>
   );

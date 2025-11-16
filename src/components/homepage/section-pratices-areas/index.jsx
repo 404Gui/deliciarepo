@@ -6,28 +6,28 @@ import Link from "next/link";
 const cards = [
   {
     icon: "/produtos/pote-creme-500.png",
-    title: "Creme de leite",
-    text: ".",
+    title: "Delicia com creme de leite",
+    text: "A Delícia com creme de leite traz uma explosão de sabor e muita cremosidade.",
   },
   {
-    icon: "/produtos/pote-creme-sal-500.png",
-    title: "Creme sal",
-    text: ".",
+    icon: "/produtos/pote-creme-500.png",
+    title: "Delicia com creme de leite",
+    text: "A Delícia com creme de leite traz uma explosão de sabor e muita cremosidade.",
   },
   {
     icon: "/produtos/pote-ervas-500.png",
-    title: "Ervas",
-    text: ".",
+    title: "Delícia Toque de Chef com Ervas Aromáticas",
+    text: "A margarina Delícia Toque de Chef com Ervas Aromáticas é feita com pedacinhos de ervas, de verdade, acredita? ",
   },
   {
     icon: "/produtos/pote-alho-500.png",
-    title: "Alho",
-    text: ".",
+    title: "Delícia Toque de Chef com Alho e Cebola",
+    text: "A margarina Delícia Toque de Chef com Alho e Cebola é feita com pedacinhos de alho e de cebola e, de verdade, sabia? ",
   },
   {
     icon: "/produtos/pote-supreme-500.png",
-    title: "Supreme",
-    text: "Supreme.",
+    title: "Delicia Supreme",
+    text: "A Delícia Supreme é a margarina amanteigada feita com creme de leite..",
   },
 ];
 
@@ -37,8 +37,8 @@ export const SectionPracticeAreas = () => {
       <Image
         src={card.icon}
         alt={`ícone ${card.title}`}
-        width={82}
-        height={82}
+        width={100}
+        height={80}
         className={styles.icon}
       />
       <div className={styles.textWrapper}>
@@ -47,36 +47,36 @@ export const SectionPracticeAreas = () => {
       </div>
     </div>
   ));
+    return (
+      <section className={styles.sectionPractice}>
+        <div className={styles.contentWrapper}>
+          <span className={styles.tag}>
+            Produtos
+            <div className={styles.divider}></div>
+          </span>
+          <h2 className={styles.title}>Nossos produtos</h2>
+          <p className={styles.subtitle}>
+            Em cada etapa do processo de cozinhar ao momento de servir e
+            saborear, levamos mais deliciosidade, criatividade e alegria para a
+            vida das pessoas.
+            <strong></strong>
+          </p>
 
-  return (
-    <section className={styles.sectionPractice}>
-      <div className={styles.contentWrapper}>
-        <span className={styles.tag}>
-          Products section
-          <div className={styles.divider}></div>
-        </span>
-        <h2 className={styles.title}>Products section</h2>
-        <p className={styles.subtitle}>
-          Products section{" "}
-          <strong>Products section</strong>, Products section
-          
-        </p>
+          <CustomSwiper
+            slides={renderedCards}
+            slidesPerView={1}
+            spaceBetween={20}
+            pagination
+            mobileOnly
+            fallbackClass={styles.grid}
+            autoplay={true}
+            className={styles.practiceSwiper}
+          />
 
-        <CustomSwiper
-          slides={renderedCards}
-          slidesPerView={1}
-          spaceBetween={20}
-          pagination
-          mobileOnly
-          fallbackClass={styles.grid}
-          autoplay={true}
-          className={styles.practiceSwiper}
-        />
-
-        <Link href="/areas-de-atuacao">
-          <button className={styles.button}>Products section</button>
-        </Link>
-      </div>
-    </section>
-  );
+          <Link href="/trabalhe-conosco">
+            <button className={styles.button}>Conheça nossos produtos</button>
+          </Link>
+        </div>
+      </section>
+    );
 };

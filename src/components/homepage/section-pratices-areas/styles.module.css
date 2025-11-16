@@ -13,9 +13,9 @@
   font-size: 0.85rem;
   color: #bc9c6b;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
-  font-family: LehmannW08;
+  font-family: "FinalSix";
   display: inline-block;
 }
 
@@ -29,7 +29,7 @@
   font-size: 24px;
   margin-top: 1rem;
   font-weight: 700;
-  font-family: LehmannW08;
+  font-family: "FinalSix";
 }
 
 .subtitle {
@@ -69,8 +69,8 @@
 .cardTitle {
   color: #bc9c6b;
   font-size: 14px;
-  font-weight: 400;
-  font-family: LehmannW08;
+  font-weight: 700;
+  font-family: "FinalSix";
   margin-bottom: 0.5rem;
 }
 
@@ -78,6 +78,9 @@
   font-size: 14px;
   line-height: 1.5;
   color: #e2e2e2;
+  font-family: "FinalSix";
+  font-weight: 500;
+
 }
 
 .button {
@@ -90,6 +93,7 @@
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-family: "FinalSix";
 }
 
 .button:hover {

@@ -7,49 +7,52 @@ export const SectionEquipe = () => {
     <section className={styles.equipeSection}>
       <div className={styles.quemFaz}>
         <span className={styles.tag}>
-          CHAMADAS
+          VIRA DELÍCIA
           <div className={styles.divider}></div>
         </span>
 
-        <h2 className={styles.title}>LOREM IPSUM DOLOR SIT AMET</h2>
+        <h2 className={styles.title}>
+          VIEMOS PARA TRANSFORMAR MOMENTOS, RELAÇÕES E O ASTRAL.
+        </h2>
 
         <p className={styles.description}>
-          Lorem ipsum dolor sit amet,{" "}
-          <strong>consectetur adipiscing elit</strong>. Nulla facilisi. Mauris
-          tempus arcu ut{" "}
-          <strong>odio vulputate, quis cursus massa maximus</strong> — sed
-          condimentum elit ex non urna.
+          Nosso apetite insaciável por uma vida deliciosa transforma cada preparo
+          em uma experiência que vale a pena saborear. Acreditamos que a vida
+          merece ser uma Delícia e é por isso que pensamos fora da caixa e
+          levamos leveza, criatividade e bom humor para tudo que fazemos.
         </p>
 
-        <Link href="/profissionais">
-          <button className={styles.button}>LOREM IPSUM</button>
-        </Link>
+        {/* <Link href="/profissionais">
+          <button className={styles.button}>CONHEÇA QUEM FAZ</button>
+        </Link> */}
       </div>
 
       <div className={styles.trabalheConosco}>
         <div className={styles.text}>
           <span className={styles.tag}>
-            CHAMADAS 
+            FORA DA CAIXA
             <div className={styles.divider}></div>
           </span>
 
-          <h3 className={styles.subtitle}>LOREM IPSUM DOLOR SIT</h3>
+          <h3 className={styles.subtitle}>
+            GENTE ABERTA A CURTIR O QUE EXISTE DE MELHOR.
+          </h3>
 
           <p className={styles.textDescription}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut nisl
-            ac nulla maximus tincidunt. Integer gravida leo non lorem congue,
-            vitae dapibus velit mattis. Suspendisse potenti.
+            Falamos com pessoas que têm um apetite insaciável por delícias e um 
+            gosto pela vida que inspira. Aqui, convidamos todos a fazer parte dessa 
+            onda deliciosa afinal, não há nada tão bom que não possa virar uma Delícia.
           </p>
 
-          <Link href="/trabalhe-conosco">
-            <button className={styles.button}>LOREM IPSUM</button>
-          </Link>
+          {/* <Link href="/trabalhe-conosco">
+            <button className={styles.button}>TRABALHE CONOSCO</button>
+          </Link> */}
         </div>
 
         <div className={styles.imageWrapper}>
           <Image
             src="/genericas/Chamadas_2.png"
-            alt="Lorem ipsum dolor sit amet"
+            alt="Delícia - equipe"
             width={600}
             height={400}
             className={styles.image}

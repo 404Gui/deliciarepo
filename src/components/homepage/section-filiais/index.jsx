@@ -7,11 +7,15 @@ export const SectionFiliais = async ({ filiais }) => {
   const hasFiliais = filiais && filiais.length > 0;
 
   const subtitleContent = hasFiliais ? (
+    // Acreditamos que a vida merece ser uma Delícia
+    // e estamos aqui para transformar qualquer
+    // hora do dia em um momento delicioso, do café
+    // da manhã ao preparo das receitas.
+
     <>
-      receitas <br />
+      Acreditamos que a vida merece ser uma Delícia e estamos aqui para
+      transformar <br /> qualquer hora do dia, do café da manhã ao preparo das
       receitas
-      <br />
-      
     </>
   ) : (
     <>No momento não temos filiais cadastradas.</>
@@ -41,13 +45,11 @@ export const SectionFiliais = async ({ filiais }) => {
 
       <div className={styles.overlay}>
         <div className={styles.content}>
-          {/* HEADER */}
           <span className={styles.tag}>
-            receitas
-            <div className={styles.divider}></div>
+            RECEITAS <div className={styles.divider}></div>
           </span>
 
-          <h2 className={styles.title}>receitas section</h2>
+          <h2 className={styles.title}>Nossas receitas</h2>
 
           <p className={styles.subtitle}>{subtitleContent}</p>
 

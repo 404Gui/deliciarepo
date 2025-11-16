@@ -1,11 +1,44 @@
+/* FinalSix */
 @font-face {
-  font-family: LehmannW08;
-  src: url('/font/LehmannW08-Regular.ttf');
+  font-family: "FinalSix";
+  src: url("/fonts/FinalSix/FinalSix-Book.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FinalSix";
+  src: url("/fonts/FinalSix/FinalSix-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FinalSix";
+  src: url("/fonts/FinalSix/FinalSix-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FinalSix";
+  src: url("/fonts/FinalSix/FinalSix-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
 }
 
 body {
   background-color: #151B2E;
 }
+
+h1,
+h2,
+h3,
+p,
+span {
+  font-family: "FinalSix", sans-serif;
+}
+
 
 .glow {
   position: absolute;
