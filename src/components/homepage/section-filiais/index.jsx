@@ -23,9 +23,11 @@ export const SectionFiliais = async ({ filiais }) => {
           nome={filial.nome}
           endereco={filial.endereco}
           imagem={filial.imagem?.url || "/imagem-filial.png"}
+          href="/"
         />
       ))
     : null;
+
 
   return (
     <section className={styles.filiaisSection}>
