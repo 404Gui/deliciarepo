@@ -44,13 +44,40 @@ export const SectionNews = () => {
         </p>
 
         <div className={styles.fullBarWrapper}>
-          <Image
-            src="/genericas/barra.jpg"
-            alt="Barra decorativa"
-            fill
-            className={styles.fullBar}
-            priority
-          />
+          <div className={styles.fullBarTrack}>
+            <Image
+              src="/genericas/barra_01.jpg"
+              alt="Barra decorativa 1"
+              width={600}
+              height={120}
+              className={styles.fullBar}
+              quality={100}
+            />
+            <Image
+              src="/genericas/barra_02.jpg"
+              alt="Barra decorativa 2"
+              width={600}
+              height={120}
+              className={styles.fullBar}
+              quality={100}
+            />
+            <Image
+              src="/genericas/barra_01.jpg"
+              alt="Barra decorativa 1 repeate"
+              width={600}
+              height={120}
+              className={styles.fullBar}
+              quality={100}
+            />
+            <Image
+              src="/genericas/barra_02.jpg"
+              alt="Barra 2 repeat"
+              width={600}
+              height={120}
+              className={styles.fullBar}
+              quality={100}
+            />
+          </div>
         </div>
 
         <SectionTitle width="210px">Nossos produtos</SectionTitle>
