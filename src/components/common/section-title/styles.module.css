@@ -4,7 +4,7 @@
 }
 
 .title {
-  font-size: 24px;
+  font-size: 44px;
   font-weight: 800;
   color: #0f4196;
   font-family: FinalSix;
@@ -15,4 +15,10 @@
   height: 2px;
   background-color: #0f4196;
   margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 24px;
+  }
 }

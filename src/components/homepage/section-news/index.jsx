@@ -80,7 +80,7 @@ export const SectionNews = () => {
           </div>
         </div>
 
-        <SectionTitle width="210px">Nossos produtos</SectionTitle>
+        <SectionTitle width="210px">NOSSOS PRODUTOS</SectionTitle>
 
         <div className={styles.productsGrid}>
           {cards.map((card) => (
