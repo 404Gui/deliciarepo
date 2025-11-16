@@ -49,28 +49,28 @@ export const OpenMenu = () => {
 
         <ul className={styles.navList}>
           <li>
-            <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
-              MENU ABERTO ID
+            <Link href="/" onClick={() => setIsOpen(false)}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link href="/produtos" onClick={() => setIsOpen(false)}>
+              Produtos
             </Link>
           </li>
           <li>
             <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
-              LOREM IPSUM
+              Receitas
             </Link>
           </li>
           <li>
             <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
-              LOREM IPSUM
+              Nossa História
             </Link>
           </li>
           <li>
             <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
-              LOREM IPSUM
-            </Link>
-          </li>
-          <li>
-            <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
-              LOREM IPSUM
+              Fale Conosco
             </Link>
           </li>
         </ul>

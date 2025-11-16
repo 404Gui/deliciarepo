@@ -17,7 +17,7 @@ export const Footer = () => {
 
         <nav className={styles.footerMenu}>
           <Link href="/home">Home</Link>
-          <Link href="/areas-de-atuacao">Produtos</Link>
+          <Link href="/produtos">Produtos</Link>
           <Link href="/filiais">Receitas</Link>
           <Link href="/sobre">Nossa História</Link>
           <Link href="/trabalhe-conosco">Fale Conosco</Link>
