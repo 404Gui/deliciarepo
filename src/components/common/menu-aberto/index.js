@@ -60,7 +60,7 @@ export const OpenMenu = () => {
             </Link>
           </li>
           <li>
-            <Link href="/#" onClick={() => setIsOpen(false)}>
+            <Link href="https://www.delicia.com.br/receitas/" target="_blank" onClick={() => setIsOpen(false)}>
               Receitas
             </Link>
           </li>
