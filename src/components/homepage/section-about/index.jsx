@@ -21,7 +21,6 @@ export const SectionAbout = () => {
         <div className={styles.textContent}>
           <span className={styles.tag}>
             Estamos aqui para que a vida vire uma Delicia.
-            {/* ESTAMOS AQUI PARA QUE A VIDA VIRE UMA DELÍCIA. */}
             <div className={styles.divider}></div>
           </span>
 
