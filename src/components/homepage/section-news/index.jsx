@@ -80,7 +80,7 @@ export const SectionNews = () => {
           </div>
         </div>
 
-        <SectionTitle width="210px">Nossos Produtos</SectionTitle>
+        <SectionTitle>Nossos Produtos</SectionTitle>
        <p className={styles.description}>
           Texturas que ajudam a significar
           nossa origem, trazem um tom
