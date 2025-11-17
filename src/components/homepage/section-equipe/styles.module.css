@@ -12,6 +12,11 @@
   margin-bottom: 30px;
   font-weight: 800;
   line-height: 75px;
+  margin-left: 50px;
+}
+
+.trabalheConosco .tag {
+  text-align: right;
 }
   /* color: #053282; */
 
@@ -86,6 +91,11 @@
   line-height: 1.6;
   color: #0f4196;
   margin-bottom: 1.5rem;
+  margin-left: 50px;
+}
+
+.trabalheConosco .textDescription {
+  text-align: right;
 }
 
 .imageWrapper {
@@ -121,11 +131,14 @@
 
   }
   .tag {
-    text-align: center;
+    text-align: right;
+    line-height: normal;
+    font-size: 26px;
   }
   .textDescription {
     font-size: 12px;
     text-align: center;
     margin-bottom: 10px;
+    text-align: right;
   }
 }

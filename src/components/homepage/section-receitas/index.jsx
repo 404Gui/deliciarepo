@@ -42,10 +42,10 @@ export const SectionReceitas = async ({ receitas }) => {
       <div className={styles.overlay}>
         <div className={styles.content}>
           <span className={styles.tag}>
-            RECEITAS <div className={styles.divider}></div>
+            <h2 className={styles.title}>Nossas receitas</h2>
           </span>
 
-          <h2 className={styles.title}>Nossas receitas</h2>
+          
 
           <p className={styles.subtitle}>{subtitleContent}</p>
 
