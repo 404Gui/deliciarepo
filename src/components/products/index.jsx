@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 import { useState } from "react";
 
 export const ProductsContent = ({ produto }) => {
-  const [activeIndex, setActiveIndex] = useState([]);
+  const [activeIndex, setActiveIndex] = useState([0, 1, 2]);
 
   const toggleAccordion = (index) => {
     if (activeIndex.includes(index)) {
