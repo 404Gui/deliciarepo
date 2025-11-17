@@ -1,6 +1,5 @@
 import { Geist, Geist_Mono, Roboto } from "next/font/google";
 import "./globals.css";
-// import { FiliaisCallToAction } from "@/components/common/filiais-cta";
 import { Footer } from "@/components/common/footer";
 import Sidebar from "@/components/common/sidebar";
 // import { WhatsAppButton } from "@/components/common/whatsapp-button";
@@ -40,9 +39,7 @@ export default function RootLayout({ children }) {
         <HeaderMobile />
         <HeaderWrapper />
         <main>{children}</main>
-        {/* <FiliaisCallToAction /> */}
         <Footer />
-        {/* <WhatsAppButton /> */}
       </body>
     </html>
   );

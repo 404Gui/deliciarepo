@@ -4,16 +4,19 @@ import styles from "./styles.module.css";
 export const AboutContent = () => {
   return (
     <section className={styles.aboutSection}>
-      <h1 className={styles.title}>Delícia</h1>
+      
+      <h1 className={styles.heroPhrase}>
+        A vida merece ser uma <span>Delícia</span>
+      </h1>
 
       <p className={styles.subtitle}>
-        Delícia é a única margarina feita com creme de leite e chegou para virar o jogo. 
-        Acreditamos que a vida merece ser uma Delícia e estamos aqui para transformar 
-        qualquer hora do dia em um momento delicioso.
+        Delícia é a única margarina feita com creme de leite e chegou para virar o jogo.
+        Acreditamos que cada momento do dia merece sabor, leveza e aquele toque
+        que transforma o simples em especial.
       </p>
 
       <div className={styles.contentWrapper}>
-        <div className={styles.imageWrapper}>
+        {/* <div className={styles.imageWrapper}>
           <Image
             src="/banners/Banner_Mochilinha.png"
             alt="Delícia"
@@ -21,42 +24,47 @@ export const AboutContent = () => {
             className={styles.image}
             quality={100}
           />
-        </div>
+        </div> */}
 
         <div className={styles.textBlock}>
           <p>
-            Quando todo mundo falava que margarina é tudo igual a gente foi lá e UOU. 
-            Delícia é a única margarina com creme de leite. Quando todas falavam que 
-            eram cremosas a gente foi lá e PÁ. Delícia é a única cremoooosa de verdade 
-            porque tem o creme de leite que faz toda a diferença.
+            Quando todo mundo dizia que margarina era tudo igual, a gente decidiu mudar o jogo.
+            Delícia é a única margarina com creme de leite de verdade. Enquanto outras se diziam
+            cremosas, nós fomos lá e mostramos o que é ser <strong>cremoooosa de verdade</strong>.
           </p>
 
           <p>
-            Enquanto as margarinas estavam se limitando ao pão do café da manhã a gente 
-            foi lá e disse EI. Delícia com creme de leite é pra qualquer hora do dia. 
-            E enquanto a cozinha foi ficando com menos sabor e mais sem graça a gente 
-            foi lá e disse NÃO. Delícia com creme de leite tá aqui pra virar esse jogo.
+            Não somos só para o café da manhã. Delícia com creme de leite combina com qualquer
+            hora do dia – e é justamente isso que faz tudo ganhar mais sabor, mais brilho e mais
+            vontade de repetir.
           </p>
 
           <p>
-            A cada novo preparo nos perguntamos por que não pode ser delicioso. Estamos 
-            aqui para que a vida vire uma Delícia. Viemos para transformar os momentos 
-            as relações e o astral. Nosso apetite insaciável por uma vida deliciosa 
-            transforma cada receita em uma experiência que vale a pena saborear.
+            Nossa missão é simples: transformar o cotidiano. A cada receita, perguntamos:
+            por que não fazer delicioso? Porque vida boa é vida saboreada. É viver leve,
+            viver gostoso, viver do nosso jeito.
           </p>
 
           <p>
-            Nosso amor declarado por comida gostosa faz com que a vida tenha oooooutro 
-            sabor. Nos deliciamos com boas risadas com café da manhã na hora do almoço 
-            com as culinárias daqui e do mundo e com ideias fora da caixa porque a 
-            Delícia da vida é estar aberto pra curtir o que existe de melhor.
+            Rimos alto, misturamos culturas, provamos novidades e abraçamos o inesperado.
+            A Delícia da vida é estar de braços abertos para o melhor que ela pode trazer.
           </p>
 
           <p>
-            Afinal não há nada que esteja tão bom que não possa virar uma Delícia. 
-            Delícia a Delícia que a vida pede.
+            Afinal, nada está tão bom que não possa ficar ainda mais Delícia.
           </p>
         </div>
+      </div>
+
+      <div className={styles.finalImageWrapper}>
+        <Image
+            src="/banners/Banner_Sobre-a-Marca_Desktop_1366x500px.jpg"
+
+          alt="Banner da Marca Delícia"
+          fill
+          className={styles.finalImage}
+          quality={100}
+        />
       </div>
     </section>
   );

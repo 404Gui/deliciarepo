@@ -2,7 +2,8 @@ export const produtos = [
   {
     slug: "delicia-com-creme-de-leite",
     nome: "Delícia com creme de leite",
-    descricao: "A Delícia com creme de leite traz uma explosão de sabor e muita cremosidade.",
+    descricao:
+      "A Delícia com creme de leite traz uma explosão de sabor e muita cremosidade.",
     imagem: "/produtos/pote-creme-500.png",
 
     sobre: `
@@ -44,12 +45,24 @@ Sódio: 59 mg — VD 2%
 *% Valores Diários de referência com base em uma dieta de 2.000 Kcal.  
 ** VD não estabelecidos.
 `,
+
+    nutricionalItens: [
+      { titulo: "Valor energético", quantidade: "69 kcal = 290 kJ", vd: "3%" },
+      { titulo: "Carboidratos", quantidade: "0 g", vd: "0%" },
+      { titulo: "Proteínas", quantidade: "0 g", vd: "0%" },
+      { titulo: "Gorduras Totais", quantidade: "7,7 g", vd: "14%" },
+      { titulo: "Gorduras Saturadas", quantidade: "2,2 g", vd: "10%" },
+      { titulo: "Gorduras trans", quantidade: "0 mg", vd: "**" },
+      { titulo: "Fibra Alimentar", quantidade: "0 g", vd: "0%" },
+      { titulo: "Sódio", quantidade: "59 mg", vd: "2%" },
+    ],
   },
 
   {
     slug: "delicia-supreme",
     nome: "Delícia Supreme",
-    descricao: "A Delícia Supreme é a margarina amanteigada feita com creme de leite.",
+    descricao:
+      "A Delícia Supreme é a margarina amanteigada feita com creme de leite.",
     imagem: "/produtos/pote-supreme-500.png",
 
     sobre: `
@@ -89,6 +102,17 @@ Sódio: 51 mg — VD 2%
 *% Valores Diários de referência com base em uma dieta de 2.000 Kcal.  
 ** VD não estabelecidos.
 `,
+
+    nutricionalItens: [
+      { titulo: "Valor energético", quantidade: "74 kcal = 311 kJ", vd: "4%" },
+      { titulo: "Carboidratos", quantidade: "0 g", vd: "0%" },
+      { titulo: "Proteínas", quantidade: "0 g", vd: "0%" },
+      { titulo: "Gorduras Totais", quantidade: "8,2 g", vd: "15%" },
+      { titulo: "Gorduras Saturadas", quantidade: "2,4 g", vd: "11%" },
+      { titulo: "Gorduras trans", quantidade: "0 g", vd: "**" },
+      { titulo: "Fibra Alimentar", quantidade: "0 g", vd: "0%" },
+      { titulo: "Sódio", quantidade: "51 mg", vd: "2%" },
+    ],
   },
 
   {
@@ -134,6 +158,17 @@ Sódio: 54 mg — VD 2%
 *% Valores Diários de referência com base em uma dieta de 2.000 Kcal.  
 ** VD não estabelecidos.
 `,
+
+    nutricionalItens: [
+      { titulo: "Valor energético", quantidade: "70 kcal = 287 kJ", vd: "4%" },
+      { titulo: "Carboidratos", quantidade: "0 g", vd: "0%" },
+      { titulo: "Proteínas", quantidade: "0 g", vd: "0%" },
+      { titulo: "Gorduras Totais", quantidade: "7,7 g", vd: "14%" },
+      { titulo: "Gorduras Saturadas", quantidade: "2,2 g", vd: "10%" },
+      { titulo: "Gorduras trans", quantidade: "0 g", vd: "**" },
+      { titulo: "Fibra Alimentar", quantidade: "0 g", vd: "0%" },
+      { titulo: "Sódio", quantidade: "54 mg", vd: "2%" },
+    ],
   },
 
   {
@@ -179,5 +214,16 @@ Sódio: 54 mg — VD 2%
 *% Valores Diários de referência com base em uma dieta de 2.000 Kcal.  
 ** VD não estabelecidos.
 `,
+
+    nutricionalItens: [
+      { titulo: "Valor energético", quantidade: "69 kcal = 285 kJ", vd: "3%" },
+      { titulo: "Carboidratos", quantidade: "0 g", vd: "0%" },
+      { titulo: "Proteínas", quantidade: "0 g", vd: "0%" },
+      { titulo: "Gorduras Totais", quantidade: "7,7 g", vd: "14%" },
+      { titulo: "Gorduras Saturadas", quantidade: "2,2 g", vd: "10%" },
+      { titulo: "Gorduras trans", quantidade: "0 g", vd: "**" },
+      { titulo: "Fibra Alimentar", quantidade: "0 g", vd: "0%" },
+      { titulo: "Sódio", quantidade: "54 mg", vd: "2%" },
+    ],
   },
 ];

@@ -37,7 +37,7 @@ export const OpenMenu = () => {
         </button>
 
         <div className={styles.logoWrapper}>
-          <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
+          <Link href="/" onClick={() => setIsOpen(false)}>
             <Image
               src="/logos/delicia-branco-high.png"
               alt="Logo delicia"
@@ -55,12 +55,12 @@ export const OpenMenu = () => {
             </Link>
           </li>
           <li>
-            <Link href="/produtos" onClick={() => setIsOpen(false)}>
+            <Link href="/#" onClick={() => setIsOpen(false)}>
               Produtos
             </Link>
           </li>
           <li>
-            <Link href="/" onClick={() => setIsOpen(false)}>
+            <Link href="/#" onClick={() => setIsOpen(false)}>
               Receitas
             </Link>
           </li>
@@ -70,7 +70,7 @@ export const OpenMenu = () => {
             </Link>
           </li>
           <li>
-            <Link href="/" onClick={() => setIsOpen(false)}>
+            <Link href="/#" onClick={() => setIsOpen(false)}>
               Fale Conosco
             </Link>
           </li>

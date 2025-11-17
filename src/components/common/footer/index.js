@@ -59,22 +59,22 @@ export const Footer = () => {
             <nav className={styles.footerList}>
               <Link href="/">Home</Link>
               <Link href="/produtos">Produtos</Link>
-              <Link href="/filiais">Receitas</Link>
+              <Link href="/#">Receitas</Link>
               <Link href="/sobre">Nossa História</Link>
-              <Link href="/trabalhe-conosco">Fale Conosco</Link>
+              <Link href="/#">Fale Conosco</Link>
             </nav>
           </div>
 
           <div className={styles.footerBrand}>
-            <Image
-              src="/logos/delicia-branco-high.png"
-              alt="Delícia"
-              width={120}
-              height={90}
-              quality={100}
-            />
-
-            
+            <Link href="/">
+              <Image
+                src="/logos/delicia-branco-high.png"
+                alt="Delícia"
+                width={120}
+                height={90}
+                quality={100}
+              />
+            </Link>
           </div>
         </div>
       </div>
