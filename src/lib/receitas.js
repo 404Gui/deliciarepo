@@ -6,7 +6,7 @@ export async function getReceitas() {
       nome: "Pastel Assado com Carne-seca e Requeijão",
       endereco: "Rua Exemplo, 123 - Centro, São Paulo/SP",
       imagem: { url: "/receitas/pastel.jpg" },
-      linkReceita: {url: "https://www.receiteria.com.br/pastel-assado-com-carne-seca-e-requeijao/"},
+      linkReceita: {url: "https://www.delicia.com.br/receita/pastel-assado-com-carne-seca-e-requeijao/"},
     },
     {
       nome: "Macarrão Gratinado com Cheddar e Bacon",
