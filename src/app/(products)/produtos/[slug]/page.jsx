@@ -1,5 +1,5 @@
 import { ProductsContent } from "@/components/products";
-import { produtos } from "@/data/produtos";
+import { produtos } from "@/lib/produtos";
 
 export default function ProdutoPage({ params }) {
   const produto = produtos.find((p) => p.slug === params.slug);

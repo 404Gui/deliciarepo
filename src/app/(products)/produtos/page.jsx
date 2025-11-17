@@ -1,4 +1,4 @@
-import { produtos } from "@/data/produtos";
+import { produtos } from "@/lib/produtos";
 import Link from "next/link";
 
 function ProdutosPage() {

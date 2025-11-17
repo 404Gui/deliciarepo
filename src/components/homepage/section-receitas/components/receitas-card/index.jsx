@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import styles from "./styles.module.css";
 
 export const ReceitasCard = ({ nome, endereco, imagem, href }) => {
@@ -18,5 +17,11 @@ export const ReceitasCard = ({ nome, endereco, imagem, href }) => {
     </div>
   );
 
-  return href ? <Link href={href}>{CardContent}</Link> : CardContent;
+  return href ? (
+    <a href={href} target="_blank" rel="noopener noreferrer">
+      {CardContent}
+    </a>
+  ) : (
+    CardContent
+  );
 };

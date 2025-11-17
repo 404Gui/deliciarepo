@@ -4,8 +4,7 @@ import { SectionEquipe } from "@/components/homepage/section-equipe";
 import { SectionReceitas } from "@/components/homepage/section-receitas";
 import { SectionNews } from "@/components/homepage/section-news";
 import { SectionPracticeAreas } from "@/components/homepage/section-pratices-areas";
-import {getReceitas } from "@/lib/filiais";
-import { getNovidades } from "@/lib/novidades";
+import {getReceitas } from "@/lib/receitas";
 import { FormSection } from "@/components/homepage/section-form";
 
 export const metadata = {

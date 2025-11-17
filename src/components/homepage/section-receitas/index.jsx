@@ -23,7 +23,7 @@ export const SectionReceitas = async ({ receitas }) => {
           nome={receita.nome}
           categoria={receita.categoria}
           imagem={receita.imagem?.url || "/receitas/default.png"}
-          href={`/receitas/${receita.slug || ""}`}
+          href={receita.linkReceita?.url}
         />
       ))
     : null;

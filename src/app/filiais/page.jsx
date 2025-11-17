@@ -1,5 +1,5 @@
 import { ReceitasContent } from "@/components/homepage/section-receitas/components/receitas-content";
-import { getReceitas } from "@/lib/filiais";
+import { getReceitas } from "@/lib/receitas";
 
 
 export const metadata = {
