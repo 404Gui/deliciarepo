@@ -2,6 +2,9 @@
   padding: 6rem 2rem;
   color: #ffffff;
 }
+.fullBarWrapper {
+  margin-bottom: 0!important;
+}
 
 .tag {
   display: inline-block;

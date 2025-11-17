@@ -1,7 +1,8 @@
 .section_two {
     background-color: #faebc8;
-    padding: 1rem 2rem;
     margin-left: 4rem;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .container {
@@ -56,8 +57,8 @@
 .imageWrapper {
     position: relative;
     width: 315px;
-    height: 315px;
-    margin: 0 auto 1rem;
+    height: 233px;
+    margin: 0 auto;
 }
 
 .productImage {
@@ -66,7 +67,7 @@
 
 .productTitle {
     font-family: Magnolia;
-    font-size: 26px;
+    font-size: 33px;
     font-weight: 800;
     color: #0f4196;
     margin-bottom: 0.5rem;
@@ -80,6 +81,10 @@
     margin: 0 auto;
 }
 @media (max-width: 1024px) {
+    .section_two {
+        margin-top: 25px;
+        margin-left: 0px;
+    }
     .productTitle {
         font-family: Magnolia;
         font-size: 23px;
@@ -101,6 +106,7 @@
 
     .title {
         font-size: 18px;
+        margin-top: 110px;
     }
 
     .description {
@@ -120,6 +126,7 @@
   margin-left: calc(-50vw - 2rem);
   position: relative;
   height: 90px;
+  margin-bottom: 10px;
 }
 
 .fullBarTrack {
