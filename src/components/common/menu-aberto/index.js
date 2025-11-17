@@ -54,11 +54,7 @@ export const OpenMenu = () => {
               Home
             </Link>
           </li>
-          <li>
-            <Link href="/#" onClick={() => setIsOpen(false)}>
-              Produtos
-            </Link>
-          </li>
+
           <li>
             <Link href="https://www.delicia.com.br/receitas/" target="_blank" onClick={() => setIsOpen(false)}>
               Receitas
@@ -69,11 +65,7 @@ export const OpenMenu = () => {
               Nossa História
             </Link>
           </li>
-          <li>
-            <Link href="/#" onClick={() => setIsOpen(false)}>
-              Fale Conosco
-            </Link>
-          </li>
+      
         </ul>
 
         <div className={styles.socials}>
