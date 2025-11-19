@@ -5,6 +5,7 @@ import Sidebar from "@/components/common/sidebar";
 // import { WhatsAppButton } from "@/components/common/whatsapp-button";
 import { HeaderMobile } from "@/components/common/header-mobile";
 import { HeaderWrapper } from "@/components/common/header/wrapper";
+import { Wave } from "@/components/common/waves";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -39,6 +40,7 @@ export default function RootLayout({ children }) {
         <HeaderMobile />
         <HeaderWrapper />
         <main>{children}</main>
+        <Wave direction="up" />
         <Footer />
       </body>
     </html>
