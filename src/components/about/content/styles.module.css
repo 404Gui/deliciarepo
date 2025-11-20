@@ -1,5 +1,5 @@
 .aboutSection {
-  padding: 5rem 2rem;
+  padding: 5rem 4rem;
   background: #FAEBC8;
   color: #053282;
   text-align: center;
@@ -15,10 +15,7 @@
 .heroPhrase span {
   color: #facd0a;
   font-family: "Magnolia";
-
 }
-
-
 
 .title {
   font-family: "FinalSix";
@@ -27,7 +24,7 @@
   line-height: 44px;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  color: #0f4196;
+  color: #0f4196 !important;
 }
 
 .subtitle {
@@ -36,12 +33,10 @@
   line-height: 32px;
   margin: 0 auto 70px auto;
   max-width: 900px;
-  color: #0F4196;
+  color: #0F4196 !important;
 }
 
-
 .contentWrapper {
-  display: flex;
   align-items: stretch;
   gap: 2rem;
   max-width: 1200px;
@@ -71,11 +66,15 @@
   font-family: "FinalSix";
   font-size: 18px;
   line-height: 1.7;
-  color: #053282;
+  color: #053282 !important;
+}
+
+.textBlock p {
+  color: #053282 !important;
 }
 
 .textBlock strong {
-  color: #006EFA;
+  color: #006EFA !important;
 }
 
 .finalImageWrapper {
@@ -137,3 +136,4 @@
     padding: 3rem 1rem;
   }
 }
+

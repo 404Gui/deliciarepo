@@ -4,7 +4,7 @@ import { AreasContent } from "@/components/areas/content";
 
 export const metadata = {
   title: "Delicia",
-  description: "delicia",
+  description: "Delicia",
   author: "",
   icons: {
     icon: "/",

@@ -3,7 +3,7 @@ import { MissionVisionValues } from "@/components/about/missao-valores-visao";
 
 export const metadata = {
   title: "Delicia",
-  description: "delicia",
+  description: "Delicia",
   author: "",
   icons: {
     icon: "/",

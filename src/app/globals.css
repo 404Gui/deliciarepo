@@ -47,7 +47,9 @@ span {
   font-family: "FinalSix", sans-serif;
 }
 
-
+p {
+  color: black;
+}
 .glow {
   position: absolute;
   top: -100px;

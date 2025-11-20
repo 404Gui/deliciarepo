@@ -1,6 +1,7 @@
-.equipeSection {
+.sectionWrapper {
   padding: 6rem 2rem;
   color: #ffffff;
+
 }
 .fullBarWrapper {
   margin-bottom: 0!important;
@@ -8,7 +9,7 @@
 
 .tag {
   display: inline-block;
-  color: #053282;
+  color: #0f4196;
   font-family: "Magnolia";
   font-size: 64px;
   position: relative;
@@ -21,11 +22,11 @@
 .trabalheConosco .tag {
   text-align: right;
 }
-  /* color: #053282; */
+  /* color: #0f4196; */
 
 .divider {
   height: 2px;
-  background-color: #053282;
+  background-color: #0f4196;
   margin-top: 4px;
 }
 
@@ -66,6 +67,7 @@
   background-color: #a78558;
 }
 
+
 .trabalheConosco {
   display: flex;
   align-items: center;
@@ -80,6 +82,7 @@
   flex: 1;
   min-width: 300px;
   transform: translateX(calc(-30% - -90px));
+
 }
 
 .subtitle {

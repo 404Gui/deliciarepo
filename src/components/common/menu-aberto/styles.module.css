@@ -92,7 +92,7 @@
   .closeButton {
     display: none;
   }
-  .navList {
-    font-size: 28px;
+  .navList { 
+    font-size: 22px;
   }
 }

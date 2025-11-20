@@ -24,6 +24,7 @@ export default function Sidebar() {
       </Link>
 
           <Link href="https://www.instagram.com/delicia/">
+
         <Image
           src="/icones/iInstagramm.png"
           alt="Instagram"

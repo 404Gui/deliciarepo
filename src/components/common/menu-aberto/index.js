@@ -39,8 +39,8 @@ export const OpenMenu = () => {
         <div className={styles.logoWrapper}>
           <Link href="/" onClick={() => setIsOpen(false)}>
             <Image
-              src="/logos/delicia-branco-high.png"
-              alt="Logo delicia"
+              src="/logos/logo.png"
+              alt="Logo Delicia"
               width={226}
               height={138}
               quality={100}
@@ -54,7 +54,6 @@ export const OpenMenu = () => {
               Home
             </Link>
           </li>
-
           <li>
             <Link href="https://www.delicia.com.br/receitas/" target="_blank" onClick={() => setIsOpen(false)}>
               Receitas
@@ -65,7 +64,6 @@ export const OpenMenu = () => {
               Nossa História
             </Link>
           </li>
-      
         </ul>
 
         <div className={styles.socials}>
