@@ -1,5 +1,6 @@
 export async function getProdutos() {
   const query = `
+
   {
     produtos {
       nodes {
@@ -67,7 +68,7 @@ export async function getProdutos() {
 }
 
 
-
+// TODO - remover
 // export const produtos = [
 //   {
 //     slug: "delicia-com-creme-de-leite",
